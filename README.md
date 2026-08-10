@@ -3,7 +3,7 @@ Various scripts for the QGIS 3.x processing toolbox.
 
 ## Installation:
 
-Just copy the 
+Just download the *.py file from "scripts" here and copy the file to the scripts subfolder in your QGIS user profile - the path is usually like this:
 
 Windows: %APPDATA%\QGIS\QGIS3\profiles\default\processing\scripts
 
@@ -11,7 +11,7 @@ Linux: ~/.local/share/QGIS/QGIS3/profiles/default/processing/script
 
 macOS: ~/Library/Application Support/QGIS/QGIS3/profiles/default/processing/scripts
 
-
+Or just go to the main QGIS menu toolbar and choose *Settings / User Profiles / Open Active Profile Folder* - the profile folder will open in the default file manager.
 
 DISCLAIMER:
 
