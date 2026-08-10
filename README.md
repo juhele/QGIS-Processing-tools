@@ -6,7 +6,9 @@ Various scripts for the QGIS 3.x processing toolbox.
 Just copy the 
 
 Windows: %APPDATA%\QGIS\QGIS3\profiles\default\processing\scripts
+
 Linux: ~/.local/share/QGIS/QGIS3/profiles/default/processing/script
+
 macOS: ~/Library/Application Support/QGIS/QGIS3/profiles/default/processing/scripts
 
 
