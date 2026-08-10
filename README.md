@@ -3,7 +3,11 @@ Various scripts for the QGIS 3.x processing toolbox.
 
 ## Installation:
 
-Just download the *.py file from "scripts" here and copy the file to the scripts subfolder in your QGIS user profile - the path is usually like this:
+Just download the *.py file from "scripts" here - click the provided link and then the Download raw file icon:
+
+<img src="images/download_raw.png" alt="Download raw file icon">
+
+and copy the file to the scripts subfolder in your QGIS user profile - the path is usually like this:
 
 Windows: %APPDATA%\QGIS\QGIS3\profiles\default\processing\scripts
 
