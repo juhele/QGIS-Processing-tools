@@ -17,9 +17,9 @@ Or just go to the main QGIS menu toolbar and choose *Settings / User Profiles / 
 
 Loads Safecast measurement points (bGeigie imports) for the <b>current map canvas extent</b>.
 
-• Point layer in EPSG:4326
-• Embedded default symbology (dose rate classes)
-• Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
+* Point layer in EPSG:4326
+* Embedded default symbology (dose rate classes)
+* Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
 
 DISCLAIMER:
