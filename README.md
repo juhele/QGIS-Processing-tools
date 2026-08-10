@@ -7,7 +7,7 @@ Just download the *.py file from "scripts" here and copy the file to the scripts
 
 Windows: %APPDATA%\QGIS\QGIS3\profiles\default\processing\scripts
 
-Linux: ~/.local/share/QGIS/QGIS3/profiles/default/processing/script
+Linux: ~/.local/share/QGIS/QGIS3/profiles/default/processing/scripts
 
 macOS: ~/Library/Application Support/QGIS/QGIS3/profiles/default/processing/scripts
 
