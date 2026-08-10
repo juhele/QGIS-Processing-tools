@@ -21,6 +21,8 @@ Loads Safecast measurement points (bGeigie imports) for the <b>current map canva
 * Embedded default symbology (dose rate classes)
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
+The script uses an endpoint from the Safecast New Map (https://simplemap.safecast.org/) - the goal was to be able to view and work with Safecast data (bGeigie, CzechRad devices) without having to download the entire large dataset.
+
 
 DISCLAIMER:
 
