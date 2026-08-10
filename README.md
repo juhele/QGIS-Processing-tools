@@ -20,6 +20,7 @@ Or just go to the main QGIS menu toolbar and choose *Settings / User Profiles / 
 ## Safecast Point Loader
 
 Loads Safecast measurement points (bGeigie imports) for the <b>current map canvas extent</b>.
+**Download:** [Safecast_Point_Loader_v3_0.py]([https://github.com/juhele/CzechRad/blob/main/SCRIPTS/CzechRad_Safecast_Point_Loader_v3_0.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/Safecast_Point_Loader_v3_0.py))
 
 <img src="images/safecastpointloader.jpg" alt="screenshot of QGIS Safecast Point Loader window and loaded data" width="800"/>
 
