@@ -30,15 +30,19 @@ Loads Safecast measurement points (bGeigie imports) for the <b>current map canva
 
 The script uses an endpoint from the Safecast New Map (https://simplemap.safecast.org/) - the goal was to be able to view and work with Safecast data (bGeigie, CzechRad devices) without having to download the entire large dataset.
 
-## Safecast Point Loader
+## Safecast Fixed Sensors Loader
 
 Loads Safecast realtime fixed sensons data (Pointcast, Solarcast etc.).
 **Download:** [Safecast_Fixed_Sensors_Loader_v2.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/Safecast_Fixed_Sensors_Loader_v2.py)
 
-<img src="images/safecastfixedsensorsloader.jpg" alt="screenshot of QGIS Safecast Point Loader window and loaded data" width="800"/>
+<img src="images/safecastfixedsensorsloader.jpg" alt="screenshot of QGIS Safecast Fixed Sensors Loader window and loaded data" width="800"/>
 
-* Point layer in EPSG:4326
-* Embedded default symbology (dose rate classes)
+* Loads the live fixed sensors layer from the Safecast OGC API Features endpoint[](https://simplemap.safecast.org/ogc)
+* adds longitude/latitude (and xcoord/ycoord) attributes
+* calculates doserate_uSvh = value / 334
+* applies one of the two provided classification styles.\n\n"
+            "Style 1 (default) = original Safecast default style\n"
+            "Style 2 = CzechRad colours style"
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
 The script uses an endpoint from the Safecast New Map (https://simplemap.safecast.org/) - the goal was to be able to view and work with Safecast data (bGeigie, CzechRad devices) without having to download the entire large dataset.
