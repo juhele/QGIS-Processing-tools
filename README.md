@@ -37,15 +37,13 @@ Loads Safecast realtime fixed sensons data (Pointcast, Solarcast etc.).
 
 <img src="images/safecastfixedsensorsloader.jpg" alt="screenshot of QGIS Safecast Fixed Sensors Loader window and loaded data" width="800"/>
 
-* Loads the live fixed sensors layer from the Safecast OGC API Features endpoint[](https://simplemap.safecast.org/ogc)
-* adds longitude/latitude (and xcoord/ycoord) attributes
-* calculates doserate_uSvh = value / 334
-* applies one of the two provided classification styles.\n\n"
-            "Style 1 (default) = original Safecast default style\n"
-            "Style 2 = CzechRad colours style"
+* Loads the live fixed sensors layer from the Safecast OGC API Features endpoint
+* Adds longitude/latitude (and xcoord/ycoord) attributes
+* Calculates doserate_uSvh = value / 334
+* Applies one of the two provided classification styles (user can choose "Style 1 (default) = original Safecast default style" or "Style 2 = CzechRad colours style")
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
-The script uses an endpoint from the Safecast New Map (https://simplemap.safecast.org/) - the goal was to be able to view and work with Safecast data (bGeigie, CzechRad devices) without having to download the entire large dataset.
+The script uses OGC API Features endpoint from the Safecast New Map (https://simplemap.safecast.org/).
 
 DISCLAIMER:
 
