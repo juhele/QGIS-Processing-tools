@@ -1,6 +1,8 @@
 # QGIS-Processing-tools
 Here you will find various scripts for the QGIS 3.x Processing Toolbox. The scripts were created in good faith, primarily to make the work of users in the field of civil radioactivity measurements more comfortable.
 
+Please be kind and do not abuse these tools to over-extract data from the respective data providers, so that we do not lose access to this data.
+
 The functionality of the scripts was tested on QGIS 3.44 Solothurn (LTR release) on Windows and Kubuntu GNU/Linux.
 
 ## Installation:
