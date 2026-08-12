@@ -17,6 +17,10 @@ macOS: ~/Library/Application Support/QGIS/QGIS3/profiles/default/processing/scri
 
 Or just go to the main QGIS menu toolbar and choose *Settings / User Profiles / Open Active Profile Folder* - the profile folder will open in the default file manager.
 
+If you have QGIS running, close it and restart it. When QGIS starts, it automatically searches for newly added scripts and adds them to the Processing Toolbox. On the main QGIS toolbar, click on the gear icon - Toolbox:
+
+<img src="images/QGIS_processing_01.png" alt="QGIS main toolbar with Toolbox icon">
+
 ## Safecast Point Loader
 
 Loads Safecast measurement points (bGeigie imports) for the <b>current map canvas extent</b>.
