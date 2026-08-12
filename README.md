@@ -21,6 +21,13 @@ If you have QGIS running, close it and restart it. When QGIS starts, it automati
 
 <img src="images/QGIS_processing_01.png" alt="QGIS main toolbar with Toolbox icon">
 
+You can find the scripts at the very bottom:
+
+<img src="images/QGIS_processing_02.png" alt="Scripts in the Processing Toolbox">
+
+Run the script with a mouse double-click, each script has a graphical user interface - it's not a command line thing.
+
+
 ## Safecast Point Loader
 
 Loads Safecast measurement points (bGeigie imports) for the <b>current map canvas extent</b>.
