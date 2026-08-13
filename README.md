@@ -55,7 +55,7 @@ Loads Safecast realtime fixed sensons data (Pointcast, Solarcast etc.).
 * Loads the live fixed sensors layer from the Safecast OGC API Features endpoint
 * Adds longitude/latitude (and xcoord/ycoord) attributes
 * Calculates doserate_uSvh = value / 334
-* Applies one of the two provided classification styles (user can choose "Style 1 (default) = original Safecast default style" or "Style 2 = CzechRad colours style")
+* Applies one of the two provided classification styles (user can choose "Style 1 (default) = original Safecast default style" or "Style 2 = CzechRad color style")
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
 The script uses OGC API Features endpoint from the Safecast New Map (https://simplemap.safecast.org/).
