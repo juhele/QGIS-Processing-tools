@@ -80,7 +80,7 @@ This script loads current public dose rate data from the Czech SVZ real-time rad
 
 **Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
 
-<img src="images/paapointloader.jpg" alt="screenshot of QGIS PAA Point Loader window and loaded data" width="800"/>
+<img src="images/monrassvzpointloader.jpg" alt="screenshot of QGIS MonRas SVZ Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
 * Applies one of the two provided classification styles (user can choose "style_1_CzechRad_colors = CzechRad colours style" or "style_2_PAA_default_colors = default style used for PAA online map")
