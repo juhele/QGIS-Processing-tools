@@ -74,6 +74,20 @@ This script loads current public dose rate data from Polish network of Permanent
 
 We consider the use of the data in the above manner to be "fair use" (please cite PAA and IMGW correctly as the data source), but if you want to use the data for other purposes, please consult with the original data providers - i.e. PAA and IMGW..
 
+## MonRas SVZ Point Loader (Czechia)
+
+This script loads current public dose rate data from the Czech SVZ real-time radiation monitoring network (SVZ = in Czech "Síť včasného zjištění" - English: EWN - Early Warning Network) public dose-rate points from https://sujb.gov.cz (MonRas / nuvia_wps:nuvia_svz) managed by State Office for Nuclear Safety (SÚJB - Czech: Státní úřad pro jadernou bezpečnost). Their interactive [public MonRas map](https://sujb.gov.cz/aplikace/monras/), unfortunately, displays the data in a single-color symbol, so it is impossible to visually see the differences in values ​​without having to manually click through all the points of interest. The map also does not have the option to download the data. 
+
+**Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
+
+<img src="images/paapointloader.jpg" alt="screenshot of QGIS PAA Point Loader window and loaded data" width="800"/>
+
+* Point layer in EPSG:4326
+* Applies one of the two provided classification styles (user can choose "style_1_CzechRad_colors = CzechRad colours style" or "style_2_PAA_default_colors = default style used for PAA online map")
+* Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
+
+We consider the use of the data in the above manner to be "fair use" (please cite PAA and IMGW correctly as the data source), but if you want to use the data for other purposes, please consult with the original data providers - i.e. PAA and IMGW..
+
 DISCLAIMER:
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
