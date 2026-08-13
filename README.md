@@ -60,6 +60,20 @@ Loads Safecast realtime fixed sensons data (Pointcast, Solarcast etc.).
 
 The script uses OGC API Features endpoint from the Safecast New Map (https://simplemap.safecast.org/).
 
+## PAA Point Loader (Poland)
+
+This script loads current public dose rate data from Polish network of Permanent Monitoring Stations (PMS) managed by PAA (Państwowa Agencja Atomistyki / National Atomic Energy Agency) and data from automatic IMGW stations provided by the Institute of Meteorology and Water Management (Instytut Meteorologii i Gospodarki Wodnej Państwowy Instytut Badawczy). The interactive [PAA map](https://monitoring.paa.gov.pl/maps-portal/) even has export to Esri Shapefile, but for a quick comparison with CzechRad data measured by the user this script may be more comfortable.
+
+**Download:** [PAA_Point_Loader_v5.zip](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/PAA_Point_Loader_v5.zip) and extract the *.py and the two *.qml files in the "scripts" folder (details in "Installation" section)
+
+<img src="images/xxx.jpg" alt="screenshot of QGIS PAA Point Loader window and loaded data" width="800"/>
+
+* Point layer in EPSG:4326
+* Applies one of the two provided classification styles (user can choose "style_1_CzechRad_colors = CzechRad colours style" or "style_2_PAA_default_colors = default style used for PAA online map")
+* Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
+
+The script uses an endpoint from the Safecast New Map (https://simplemap.safecast.org/) - the goal was to be able to view and work with Safecast data (bGeigie, CzechRad devices) without having to download the entire large dataset.
+
 DISCLAIMER:
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
