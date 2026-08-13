@@ -66,7 +66,7 @@ This script loads current public dose rate data from Polish network of Permanent
 
 **Download:** [PAA_Point_Loader_v5.zip](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/PAA_Point_Loader_v5.zip) and extract the *.py and the two *.qml files in the "scripts" folder (details in "Installation" section)
 
-<img src="images/xxx.jpg" alt="screenshot of QGIS PAA Point Loader window and loaded data" width="800"/>
+<img src="images/paapointloader.jpg" alt="screenshot of QGIS PAA Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
 * Applies one of the two provided classification styles (user can choose "style_1_CzechRad_colors = CzechRad colours style" or "style_2_PAA_default_colors = default style used for PAA online map")
