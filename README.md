@@ -72,7 +72,7 @@ This script loads current public dose rate data from Polish network of Permanent
 * Applies one of the two provided classification styles (user can choose "style_1_CzechRad_colors = CzechRad colours style" or "style_2_PAA_default_colors = default style used for PAA online map")
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
-The script uses an endpoint from the Safecast New Map (https://simplemap.safecast.org/) - the goal was to be able to view and work with Safecast data (bGeigie, CzechRad devices) without having to download the entire large dataset.
+We consider the use of the data in the above manner to be "fair use" (please cite PAA and IMGW correctly as the data source), but if you want to use the data for other purposes, please consult with the original data providers - i.e. PAA and IMGW..
 
 DISCLAIMER:
 
