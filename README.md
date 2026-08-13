@@ -78,6 +78,8 @@ We consider the use of the data in the above manner to be "fair use" (please cit
 
 This script loads current public dose rate data from the Czech SVZ real-time radiation monitoring network (SVZ = in Czech "Síť včasného zjištění" - English: EWN - Early Warning Network) public dose-rate points from https://sujb.gov.cz (MonRas / nuvia_wps:nuvia_svz) managed by State Office for Nuclear Safety (SÚJB - Czech: Státní úřad pro jadernou bezpečnost). Their interactive [public MonRas map](https://sujb.gov.cz/aplikace/monras/), unfortunately, displays the data in a single-color symbol, so it is impossible to visually see the differences in values ​​without having to manually click through all the points of interest. The map also does not have the option to download the data. 
 
+This script allows both a simple visual evaluation of values ​​on the map and their subsequent comparison with your own measurements, e.g. with the Safecast bGeigie Nano or CzechRad device, without causing excessive load on the SÚJB servers. The script loads the same data as the online MonRas map when clicking on the SVZ icon - but the user no longer loads the rest of the online MonRas application, the background map, and does not have to find out the values ​​of specific stations by clicking on them one by one.
+
 **Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
 
 <img src="images/monrassvzpointloader.jpg" alt="screenshot of QGIS MonRas SVZ Point Loader window and loaded data" width="800"/>
