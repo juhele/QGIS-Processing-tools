@@ -83,7 +83,7 @@ This script loads current public dose rate data from the Czech SVZ real-time rad
 <img src="images/monrassvzpointloader.jpg" alt="screenshot of QGIS MonRas SVZ Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
-* Applies one of the two provided classification styles (user can choose "style_1_CzechRad_colors = CzechRad colours style" or "style_2_PAA_default_colors = default style used for PAA online map")
+* Applies one of the two provided classification styles (user can choose "1 – CzechRad colors (detailed)" or "2 – SVZ 3-color" style that corresponds to the three-color symbology (green-yellow-red) that SÚJB uses for publicly published maps - for example, maps from Exercise ZÓNA, measurements of mobile groups, etc.)
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
 We consider the use of the data in the above manner to be "fair use" (please cite PAA and IMGW correctly as the data source), but if you want to use the data for other purposes, please consult with the original data providers - i.e. PAA and IMGW..
