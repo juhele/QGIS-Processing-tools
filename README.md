@@ -48,7 +48,7 @@ The script uses an endpoint from the Safecast New Map (https://simplemap.safecas
 ## Safecast Fixed Sensors Loader
 
 Loads Safecast realtime fixed sensons data (Pointcast, Solarcast etc.).
-**Download:** [Safecast_Fixed_Sensors_Loader_v2.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/Safecast_Fixed_Sensors_Loader_v2.py)
+**Download:** [Safecast_Fixed_Sensors_Loader_v9.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/Safecast_Fixed_Sensors_Loader_v9.py)
 
 <img src="images/safecastfixedsensorsloader.jpg" alt="screenshot of QGIS Safecast Fixed Sensors Loader window and loaded data" width="800"/>
 
