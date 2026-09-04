@@ -92,7 +92,7 @@ We consider the use of the data in the above manner to be "fair use" (please cit
 
 ## SaveEcoBot Point Loader (Ukraine)
 
-This script retrieves current gamma radiation dose rate values ​​from stationary stations displayed on the [SaveEcoBot Radiation Map](https://www.saveecobot.com/en/radiation-maps#6/51.392/32.421/gamma+usv/ara+ari+arg+arc+clua+rugt+crc) operated by the Ukrainian non-profit organization [Savednipro](https://www.savednipro.org/en/). This map displays data from stations not only in Ukraine, but also in Russia and Belarus.
+This script retrieves current gamma radiation dose rate values ​​from stationary stations displayed on the [SaveEcoBot Radiation Map](https://www.saveecobot.com/en/radiation-maps#6/51.392/32.421/gamma+usv/ara+ari+arg+arc+clua+rugt+crc) operated by the Ukrainian non-profit organization [SaveDnipro](https://www.savednipro.org/en/). This map displays data from stations not only in Ukraine, but also in Russia and Belarus.
 
 When using the script for the first time, check the "Force refresh stations.csv cache" box - the script will download the metadata of the measuring stations (it may take a little longer - even several minutes) and save it to a local file. When running it again, it will only download the values ​​of the station's batch power consumption and add the metadata from the previously saved local file to reduce the data load on the SaveEcoBot server. This allows data-friendly way for a simple visual evaluation of values ​​on the map and their subsequent comparison with your own measurements, e.g. with the Safecast bGeigie Nano or CzechRad device.
 
@@ -104,7 +104,7 @@ When using the script for the first time, check the "Force refresh stations.csv 
 * Applies one of the two provided classification styles (user can choose "Style 1: CzechRad 10-Class style (Default)" or "Style 2: SaveEcoBot default style (Optional)" style that corresponds to the style used by SaveEcoBot online map
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
-We consider the use of the data in the above manner to be "fair use" (please cite SaveEcoBot / Savednipro correctly as the data source).
+We consider the use of the data in the above manner to be "fair use" (please cite SaveEcoBot / SaveDnipro correctly as the data source).
 
 DISCLAIMER:
 
