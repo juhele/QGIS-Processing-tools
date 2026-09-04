@@ -92,7 +92,7 @@ We consider the use of the data in the above manner to be "fair use" (please cit
 
 ## SaveEcoBot Point Loader (Ukraine)
 
-This script retrieves current gamma radiation dose rate values ​​from stationary stations displayed on the [SaveEcoBot Radiation Map](https://www.saveecobot.com/en/radiation-maps#6/51.392/32.421/gamma+usv/ara+ari+arg+arc+clua+rugt+crc) operated by the Ukrainian non-profit organization [Savednipro](https://www.savednipro.org/en/).
+This script retrieves current gamma radiation dose rate values ​​from stationary stations displayed on the [SaveEcoBot Radiation Map](https://www.saveecobot.com/en/radiation-maps#6/51.392/32.421/gamma+usv/ara+ari+arg+arc+clua+rugt+crc) operated by the Ukrainian non-profit organization [Savednipro](https://www.savednipro.org/en/). This map displays data from stations not only in Ukraine, but also in Russia and Belarus.
 
 
 This script loads current public dose rate data from the Czech SVZ real-time radiation monitoring network (SVZ = in Czech "Síť včasného zjištění" - English: EWN - Early Warning Network) public dose-rate points from https://sujb.gov.cz (MonRas / nuvia_wps:nuvia_svz) managed by State Office for Nuclear Safety (SÚJB - Czech: Státní úřad pro jadernou bezpečnost). Their interactive [public MonRas map](https://sujb.gov.cz/aplikace/monras/), unfortunately, displays the data in a single-color symbol, so it is impossible to visually see the differences in values ​​without having to manually click through all the points of interest. The map also does not have the option to download the data. 
@@ -101,7 +101,7 @@ This script allows both a simple visual evaluation of values ​​on the map an
 
 **Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
 
-<img src="images/monrassvzpointloader.jpg" alt="screenshot of QGIS MonRas SVZ Point Loader window and loaded data" width="800"/>
+<img src="images/saveecobot_point_loader.jpg" alt="screenshot of QGIS SaveEcoBot Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
 * Applies one of the two provided classification styles (user can choose "1 – CzechRad colors (detailed)" or "2 – SVZ 3-color" style that corresponds to the three-color symbology (green-yellow-red) that SÚJB uses for publicly published maps - for example, maps from Exercise ZÓNA, measurements of mobile groups, etc.)
