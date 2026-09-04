@@ -94,10 +94,7 @@ We consider the use of the data in the above manner to be "fair use" (please cit
 
 This script retrieves current gamma radiation dose rate values ​​from stationary stations displayed on the [SaveEcoBot Radiation Map](https://www.saveecobot.com/en/radiation-maps#6/51.392/32.421/gamma+usv/ara+ari+arg+arc+clua+rugt+crc) operated by the Ukrainian non-profit organization [Savednipro](https://www.savednipro.org/en/). This map displays data from stations not only in Ukraine, but also in Russia and Belarus.
 
-
-This script loads current public dose rate data from the Czech SVZ real-time radiation monitoring network (SVZ = in Czech "Síť včasného zjištění" - English: EWN - Early Warning Network) public dose-rate points from https://sujb.gov.cz (MonRas / nuvia_wps:nuvia_svz) managed by State Office for Nuclear Safety (SÚJB - Czech: Státní úřad pro jadernou bezpečnost). Their interactive [public MonRas map](https://sujb.gov.cz/aplikace/monras/), unfortunately, displays the data in a single-color symbol, so it is impossible to visually see the differences in values ​​without having to manually click through all the points of interest. The map also does not have the option to download the data. 
-
-This script allows both a simple visual evaluation of values ​​on the map and their subsequent comparison with your own measurements, e.g. with the Safecast bGeigie Nano or CzechRad device, without causing excessive load on the SÚJB servers. The script loads the same data as the online MonRas map when clicking on the SVZ icon - but the user no longer loads the rest of the online MonRas application, the background map, and does not have to find out the values ​​of specific stations by clicking on them one by one. Remark: although this is an unofficial use of the MonRas endpoint, the script does not bypass or break any protection features.
+When using the script for the first time, check the "Force refresh stations.csv cache" box - the script will download the metadata of the measuring stations (it may take a little longer - even several minutes) and save it to a local file. When running it again, it will only download the values ​​of the station's batch power consumption and add the metadata from the previously saved local file to reduce the data load on the SaveEcoBot server. This allows data-friendly way for a simple visual evaluation of values ​​on the map and their subsequent comparison with your own measurements, e.g. with the Safecast bGeigie Nano or CzechRad device.
 
 **Download:** [saveecobot_point_loader.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/saveecobot_point_loader.py)
 
@@ -107,7 +104,7 @@ This script allows both a simple visual evaluation of values ​​on the map an
 * Applies one of the two provided classification styles (user can choose "Style 1: CzechRad 10-Class style (Default)" or "Style 2: SaveEcoBot default style (Optional)" style that corresponds to the style used by SaveEcoBot online map
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
-We consider the use of the data in the above manner to be "fair use" (please cite SÚJB correctly as the data source), but if you want to use the data for other purposes, please consult with the original data provider - i.e. SÚJB (https://sujb.gov.cz)
+We consider the use of the data in the above manner to be "fair use" (please cite SaveEcoBot / Savednipro correctly as the data source).
 
 DISCLAIMER:
 
