@@ -99,7 +99,7 @@ This script loads current public dose rate data from the Czech SVZ real-time rad
 
 This script allows both a simple visual evaluation of values ​​on the map and their subsequent comparison with your own measurements, e.g. with the Safecast bGeigie Nano or CzechRad device, without causing excessive load on the SÚJB servers. The script loads the same data as the online MonRas map when clicking on the SVZ icon - but the user no longer loads the rest of the online MonRas application, the background map, and does not have to find out the values ​​of specific stations by clicking on them one by one. Remark: although this is an unofficial use of the MonRas endpoint, the script does not bypass or break any protection features.
 
-**Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
+**Download:** [saveecobot_point_loader.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/saveecobot_point_loader.py)
 
 <img src="images/saveecobot_point_loader.jpg" alt="screenshot of QGIS SaveEcoBot Point Loader window and loaded data" width="800"/>
 
