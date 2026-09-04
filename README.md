@@ -104,7 +104,7 @@ This script allows both a simple visual evaluation of values ​​on the map an
 <img src="images/saveecobot_point_loader.jpg" alt="screenshot of QGIS SaveEcoBot Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
-* Applies one of the two provided classification styles (user can choose "1 – CzechRad colors (detailed)" or "2 – SVZ 3-color" style that corresponds to the three-color symbology (green-yellow-red) that SÚJB uses for publicly published maps - for example, maps from Exercise ZÓNA, measurements of mobile groups, etc.)
+* Applies one of the two provided classification styles (user can choose "Style 1: CzechRad 10-Class style (Default)" or "Style 2: SaveEcoBot default style (Optional)" style that corresponds to the style used by SaveEcoBot online map
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
 We consider the use of the data in the above manner to be "fair use" (please cite SÚJB correctly as the data source), but if you want to use the data for other purposes, please consult with the original data provider - i.e. SÚJB (https://sujb.gov.cz)
