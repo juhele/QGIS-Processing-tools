@@ -102,10 +102,10 @@ This script allows both a simple visual evaluation of values ​​on the map an
 <img src="images/shmu_radiation_loader_screen.jpg" alt="screenshot of QGIS SHMÚ Radiation Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
-* Applies one of the two provided classification styles (user can choose "1 – CzechRad colors (detailed)" or "2 – SVZ 3-color" style that corresponds to the three-color symbology (green-yellow-red) that SÚJB uses for publicly published maps - for example, maps from Exercise ZÓNA, measurements of mobile groups, etc.)
+* Applies predefined classification styles compatible with "CzechRad colors" (feel free to change it using in QGIS to fit your needs)
 * Supports temporary layer or file output (GeoPackage, GeoJSON, Shapefile…)
 
-We consider the use of the data in the above manner to be "fair use" (please cite SÚJB correctly as the data source), but if you want to use the data for other purposes, please consult with the original data provider - i.e. SÚJB (https://sujb.gov.cz)..
+We consider the use of the data in the above manner to be "fair use" (please cite SHMÚ correctly as the data source), but if you want to use the data for other purposes, please consult with the original data provider - i.e. SHMÚ ([https://sujb.gov.cz](https://www.shmu.sk/sk/?page=1&id=radioaktivita))..
 
 
 ## SaveEcoBot Point Loader (Ukraine)
