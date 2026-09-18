@@ -97,7 +97,7 @@ This script Loads current gamma radiation dose rate data from Slovak stationary 
 
 This script allows both a simple visual evaluation of values ​​on the map and their subsequent comparison with your own measurements, e.g. with the Safecast bGeigie Nano or CzechRad device, without causing excessive load on the SÚJB servers. The script loads the same data as the online MonRas map when clicking on the SVZ icon - but the user no longer loads the rest of the online MonRas application, the background map, and does not have to find out the values ​​of specific stations by clicking on them one by one. Remark: although this is an unofficial use of the MonRas endpoint, the script does not bypass or break any protection features.
 
-**Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
+**Download:** [shmu_radiation_loader.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/shmu_radiation_loader.py)
 
 <img src="images/shmu_radiation_loader_screen.jpg" alt="screenshot of QGIS SHMÚ Radiation Point Loader window and loaded data" width="800"/>
 
