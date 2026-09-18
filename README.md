@@ -99,7 +99,7 @@ This script allows both a simple visual evaluation of values ​​on the map an
 
 **Download:** [MonRas_SVZ_Point_Loader_v5.py](https://github.com/juhele/QGIS-Processing-tools/blob/main/scripts/MonRas_SVZ_Point_Loader_v5.py)
 
-<img src="images/monrassvzpointloader.jpg" alt="screenshot of QGIS MonRas SVZ Point Loader window and loaded data" width="800"/>
+<img src="images/shmu_radiation_loader_screen.jpg" alt="screenshot of QGIS SHMÚ Radiation Point Loader window and loaded data" width="800"/>
 
 * Point layer in EPSG:4326
 * Applies one of the two provided classification styles (user can choose "1 – CzechRad colors (detailed)" or "2 – SVZ 3-color" style that corresponds to the three-color symbology (green-yellow-red) that SÚJB uses for publicly published maps - for example, maps from Exercise ZÓNA, measurements of mobile groups, etc.)
